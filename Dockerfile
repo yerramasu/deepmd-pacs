@@ -9,7 +9,7 @@ RUN apt-get update -qy && \
     apt-get install -y --no-install-recommends apt-utils\
     git
 WORKDIR /ohif
-RUN git clone https://github.com/OHIF/Viewers.git
+RUN git clone https://github.com/deepmd-cancer/Viewers.git
 RUN cd Viewers && yarn install && QUICK_BUILD=true PUBLIC_URL=/viewer-ohif/ yarn run build
 
 FROM alpine as stone

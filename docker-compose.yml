@@ -11,7 +11,7 @@ networks:
 services:
 
     orthanctoolsjs:
-        image: salimkanoun/orthanctoolsjs
+        image: anilyerramasu/tools:pacs1
         container_name: orthanctoolsjs
         restart: unless-stopped
         volumes: ["orthanctoolsjs:/OrthancToolsJs/data:Z"]
