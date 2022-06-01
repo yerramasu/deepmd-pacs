@@ -75,7 +75,7 @@ export default class Authentication extends Component {
                 <div className='col-2'>
                 </div>
                 <div className='col'>
-                  DeepMD
+                  DeepMD demo System
                       </div>
                 <div className='col-2'>
                   <HelpIcon className="mb-1" data-tip data-for='info1' fontSize="small" />
@@ -101,12 +101,12 @@ export default class Authentication extends Component {
               <form id='login-form' onKeyPress={this.handleKeyDown}>
                 <fieldset>
                   <label>Username*</label>
-                  <input className='form-control' type='text' placeholder='username' name='username' value={this.state.username.value} onChange={this.handleChange} required />
+                  <input className='form-control' type='text' placeholder='demo' name='username' value={this.state.username.value} onChange={this.handleChange} required />
                 </fieldset>
 
                 <fieldset>
                   <label>Password*</label>
-                  <input className='form-control' type='password' placeholder='password' name='password' value={this.state.password.value} onChange={this.handleChange} required />
+                  <input className='form-control' type='password' placeholder='demo' name='password' value={this.state.password.value} onChange={this.handleChange} required />
                 </fieldset>
 
                 <fieldset className='text-right'>

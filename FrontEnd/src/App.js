@@ -73,7 +73,10 @@ class App extends Component {
 
     render() {
         return (
+           
+            
             <BrowserRouter>
+             
                 {this.props.username ?
                     <NavBar onLogout={this.logout} username={this.props.username} roles={this.props.roles}/> :
                     <Authentication onLogin={this.login}/>}

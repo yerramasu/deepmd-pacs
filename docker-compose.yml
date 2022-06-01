@@ -19,10 +19,10 @@ services:
             - "4000:4000"
         environment:
             TZ: "Europe/Paris"
-            ORTHANC_ADDRESS: "http://orthanc"
+            ORTHANC_ADDRESS: "http://35.202.115.123"
             ORTHANC_PORT: "8042"
-            ORTHANC_USERNAME: "salim"
-            ORTHANC_PASSWORD: "salim"
+            ORTHANC_USERNAME: ""
+            ORTHANC_PASSWORD: ""
             DOMAIN_PROTOCOL: "https"
             DOMAIN_ADDRESS: "0e44be91-4285-440b-a132-c6580851eed7.pub.instances.scw.cloud"
             REDIS_HOST: "redis"
