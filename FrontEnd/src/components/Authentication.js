@@ -75,7 +75,7 @@ export default class Authentication extends Component {
                 <div className='col-2'>
                 </div>
                 <div className='col'>
-                  DeepMD demo System
+                  DeepMD Lab System
                       </div>
                 <div className='col-2'>
                   <HelpIcon className="mb-1" data-tip data-for='info1' fontSize="small" />
@@ -98,7 +98,7 @@ export default class Authentication extends Component {
               </div>
             </div>
             <div className='block-content block block-400'>
-              <form id='login-form' onKeyPress={this.handleKeyDown}>
+              <form id='login-form'style={  { fontWeight: 'bold' ,fontsize: "large"} } onKeyPress={this.handleKeyDown}>
                 <fieldset>
                   <label>Username*</label>
                   <input className='form-control' type='text' placeholder='demo' name='username' value={this.state.username.value} onChange={this.handleChange} required />
