@@ -1,6 +1,7 @@
 window.config = {
   routerBasename: '/viewer-ohif',
   extensions: [],
+  disableMeasurementPanel: false,
   showStudyList: false,
   filterQueryParam: false,
   servers: {
